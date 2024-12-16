@@ -1,0 +1,9 @@
+packages:
+  # all packages in subdirectories of packages/
+  - 'packages/*'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
+  # exclude packages that are inside template directories
+  - '!**/template/**'
+  # exclude packages that are inside dist directories
+  - '!**/dist/**'
